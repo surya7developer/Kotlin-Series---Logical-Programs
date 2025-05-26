@@ -42,10 +42,27 @@ fun checkResult(result: Result) {
 -> We can add different types of properties for our sub classes
 -> Sealed class can have regular classes and also can have data class
 -> We can also have Object declaration in sealed class which inherit sealed class
-
 -> We can also create another sealed class inside sealed class (nested sealed class)
 -> we can also define sealed interface within sealed class
 -> We can create when condition for check object type of a sealed class
 -> Can have hierarchy and support inheritance
+
+=> We can use it for
+
+- Manage Ui State
+- Result of API Response
+- Error handling
+
+=> When to use Sealed Class?
+- API result: Success, Failure, Loading
+- UI states: Empty, Success(data), Error(msg), Loading
+- Error handling: NetworkError, TimeoutError, UnknownError
+
+=> Example
+sealed class UiState
+data class Success(val data: String) : UiState()
+data class Error(val message: String) : UiState()
+object Loading : UiState()
+
 
 */

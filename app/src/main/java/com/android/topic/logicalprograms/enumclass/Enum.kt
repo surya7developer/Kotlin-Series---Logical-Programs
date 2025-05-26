@@ -84,5 +84,23 @@ enum class Day {
 -> Enum only support constant values
 -> It can not hold any dynamic object where we can change their value
 
+=> We can use it for
+- Different Flags
+- Days
+- Directions
+
+=> Use enum class when:
+- You have a fixed set of constant values.
+- All values are of the same type.
+- Each value does not require unique data.
+
+=> Example
+
+enum class Direction { NORTH, SOUTH, EAST, WEST }
+
+enum class Status { ACTIVE, INACTIVE, PENDING }
+
+enum class Theme { LIGHT, DARK }
+
 
 */
