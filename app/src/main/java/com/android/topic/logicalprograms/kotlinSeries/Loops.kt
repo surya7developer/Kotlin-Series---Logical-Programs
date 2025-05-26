@@ -46,4 +46,11 @@ fun main() {
     for (i in 10 downTo 1) {
         println(i)
     }
+
+
+    // downTo with withIndex loop
+    val list = listOf("A", "B", "C")
+    for (i in list.lastIndex downTo 0) {
+        println(list[i])
+    }
 }

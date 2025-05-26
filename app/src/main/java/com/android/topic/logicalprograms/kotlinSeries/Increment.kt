@@ -3,6 +3,8 @@ package com.android.topic.logicalprograms.kotlinSeries
 fun main() {
 
     // We have two variation for increment
+    //Post-increment (a++) returns the old value, then increments.
+    //Pre-increment (++a) increments first, then returns the new value.
 
     //(1) Pre Increment
     var i = 10
@@ -25,8 +27,8 @@ fun main() {
     println(a++ + ++a) // Output will be 22
 
     //Explanation
-    // 1 : a++ is return 10 as it is now a's value is 11
-    // 2 : ++a is plus on a mean 11 + 1 = 12
+    // 1 : a++ is return 10 as it is, now a's value is 11
+    // 2 : ++a is plus on a mean value 11 + 1 = 12
     // 3 : now (a++) + (++a) means : (10) + (12) = 22
 
 

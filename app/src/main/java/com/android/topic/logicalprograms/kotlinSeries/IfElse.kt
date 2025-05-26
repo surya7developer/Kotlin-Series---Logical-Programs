@@ -5,12 +5,12 @@ fun main() {
     // If Else condition is used to decide which block of code will be executed base on value
     // Basically its return true/false value
 
-    val isDeveloper = false
+    val isDeveloper = true
 
     if (isDeveloper) {
-        println("Make Application")
+        println("Build the Application Code")
     } else {
-        println("Learn coding")
+        println("Make UI Design")
     }
 
 
@@ -28,7 +28,7 @@ fun main() {
     }
 
 
-    // In kotlin, we use if condition as an expression. Mean it can return statement as result
+    // In kotlin, we use if condition as an expression. Means it can return statement as result
     // Let's check above example for it
     // It make code shorter
 

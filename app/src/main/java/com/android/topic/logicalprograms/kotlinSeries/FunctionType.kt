@@ -7,18 +7,22 @@ It means we can create same name multiple function, but its datatype or number o
 Lets check below addition function example
 * */
 
+// It has 2 Int Type arguments
 fun addition(suresh:Int,ramesh:Int): Int {
     return suresh + ramesh
 }
 
+// It has 2 Double Type arguments
 fun addition(suresh:Double,ramesh:Double): Double {
     return suresh + ramesh
 }
 
+// It has 3 Int Type arguments
 fun addition(suresh:Int,ramesh:Int,mahesh:Int): Int {
     return suresh + ramesh + mahesh
 }
 
+// It has 1 String Type arguments
 fun addition(name: String): String {
     return "$name has 10 salary"
 }
@@ -26,7 +30,7 @@ fun addition(name: String): String {
 /*
 
 In above example we have 4 function with same name
-but all the function has different data types or number of arguments are different
+but all the function have different data types or number of arguments
 In this way we can create multiple function with same name
 This concept call function overloading
 

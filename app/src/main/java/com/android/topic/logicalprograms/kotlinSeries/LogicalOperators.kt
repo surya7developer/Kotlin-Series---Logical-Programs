@@ -13,8 +13,8 @@ fun main() {
     var isKotlinDeveloper = false
     var isExperienced = true
 
-    var youAreHire = isKotlinDeveloper && isExperienced
-    println(youAreHire) // Return false
+    var result = isKotlinDeveloper && isExperienced
+    println(result) // Return false
 
 
     // (2) || (OR) Operator
@@ -23,8 +23,8 @@ fun main() {
     isKotlinDeveloper = true
     isExperienced = false
 
-    youAreHire = isKotlinDeveloper || isExperienced
-    println(youAreHire) // Return true
+    result = isKotlinDeveloper || isExperienced
+    println(result) // Return true
 
 
     // => Short Circuiting
@@ -38,5 +38,6 @@ fun main() {
 
     val isApplied = false
     println(!isApplied) // Return true
+    println(isApplied.not()) // It will also return same result but syntax is different (modern way)
 
 }

@@ -6,7 +6,7 @@ import java.util.Date
 // We can reused functions. its beneficial for boiler plate code
 // Function can have zero or more arguments
 // Function can have one return type
-// We can create function we fun keyword
+// We can create function with fun keyword
 // We can also right functions without arguments and return type
 // Example
 
@@ -31,7 +31,7 @@ fun getCurrentDate(): Date {
 }
 
 
-// Function with arguments and return type
+// Function with 2 arguments and return type
 fun getSum(num1: Int, num2: Int): Int {
 
     val sum = num1 + num2
@@ -43,7 +43,7 @@ fun getMultiplication() : Int = 3 * 2
 // its automatically consider from return value
 
 
-// We can also provide default argument in function like
+// We can also provide default argument in function like below
 // In below function default value is 2 if we don't pass argument it will take 2 as argument value
 fun howManyDeveloperYouHave(developer:Int = 2){
     println("I have $developer in my office")
@@ -55,10 +55,11 @@ fun main() {
     //(1) Simple function
     showMessage()
 
-    //(2) Function which take on argument and return nothing
+    //(2) Function which take a argument and return nothing
     checkEvenOdd(5)
 
     // We can also called function with it argument name like below for checkEvenOdd function
+    // we call it named argument
     checkEvenOdd(number = 10)
 
     //(3) Function with zero argument and has return type
@@ -77,7 +78,7 @@ fun main() {
     // Call function with argument
     howManyDeveloperYouHave(5)
 
-    // Call function without argument
+    // We can call same function without argument
     howManyDeveloperYouHave()
 
 
