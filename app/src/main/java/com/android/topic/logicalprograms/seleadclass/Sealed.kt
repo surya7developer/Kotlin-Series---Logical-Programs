@@ -46,6 +46,6 @@ fun checkResult(result: Result) {
 -> We can also create another sealed class inside sealed class (nested sealed class)
 -> we can also define sealed interface within sealed class
 -> We can create when condition for check object type of a sealed class
-
+-> Can have hierarchy and support inheritance
 
 */
