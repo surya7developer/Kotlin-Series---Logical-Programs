@@ -1,6 +1,6 @@
 package com.android.topic.logicalprograms.seleadclass
 
-sealed class Result {
+sealed class Result() {
 
     data class Loading(val isShow: Boolean) : Result()
     data class Error(val errorMessage: String) : Result()

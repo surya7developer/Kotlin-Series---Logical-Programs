@@ -1,7 +1,9 @@
 package com.android.topic.javaprograms;
 
 public class MyClass {
+
     public static void main(String[] args) {
+
 
         Integer[] list={3,5,100,8,17,19};
 
