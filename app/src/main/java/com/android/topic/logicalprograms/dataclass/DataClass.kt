@@ -8,9 +8,10 @@ fun main() {
     val normalClass = NormalClass(name = "Suresh", age = 25)
     val dataClass = DataClass(name = "Suresh", age = 25)
 
+    val(name,age) = dataClass
+
     println("Normal class = $normalClass")
     println("data class = $dataClass")
-
 
     println("comparison = ${dataClass.equals(normalClass)}")
 }
